@@ -1,0 +1,33 @@
+{
+  "private": true,
+  "name": "indiekit",
+  "version": "1.0.0",
+  "description": "Indiekit server for my personal website",
+  "keywords": [
+    "indiekit",
+    "indieweb"
+  ],
+  "author": {
+    "name": "Gaelryndel",
+    "url": "https://gaelryndel.xyz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaelryndel/indiekit.git"
+  },
+  "homepage": "https://kit.gaelryndel.xyz",
+  "engines": {
+    "node": ">=16"
+  },
+  "main": "indiekit.config.cjs",
+  "scripts": {
+    "start": "indiekit serve"
+  },
+  "dependencies": {
+    "@indiekit/indiekit": "^1.0.0-alpha.8",
+    "@indiekit/preset-jekyll": "^1.0.0-alpha.5",
+    "@indiekit/store-github": "^1.0.0-alpha.5",
+    "@indiekit/syndicator-mastodon": "^1.0.0-alpha.5",
+    "@indiekit/syndicator-twitter": "^1.0.0-alpha.5"
+  }
+}
