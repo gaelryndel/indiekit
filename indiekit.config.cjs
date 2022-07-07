@@ -1,6 +1,6 @@
 module.exports = {
   application: {
-    url: "https://gaelryndel.herokuapp.com",
+    url: "https://kit.gaelryndel.xyz",
     mongodbUrl: process.env.MONGO_URL,
   },
   plugins: [
